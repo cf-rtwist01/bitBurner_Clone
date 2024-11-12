@@ -12,6 +12,7 @@ export async function main(ns) {
         ns.tprint("This server has less than 1024MB of RAM: " +serv+"\nIt only has: "+ns.getServerMaxRam(serv));
         ns.upgradePurchasedServer(serv,1024)
         ns.tprint("Now it has: " +ns.getServerMaxRam(serv))
+        ns.tprint("Here's something new to a file")
       }
     }
     
